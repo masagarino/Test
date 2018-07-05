@@ -1,0 +1,30 @@
+@import 'variables.css';
+
+:global(.mainWrapper) {
+  max-width: $tablet-portrait;
+  padding: 0 $base-spacing;
+  margin: 15px auto;
+
+  @media ( min-width: calc($tablet-portrait - ($base-spacing * 3)) ) {
+    padding: 0 calc($base-spacing * 1.5);
+  }
+}
+
+:global(.homePageWrapper) {
+  min-height: 45rem;
+
+}
+
+:global(.searchWrapper) {
+  display: block;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #ffffff;
+  background-size: cover;
+  font-family: $body-font;
+  color: white;
+}

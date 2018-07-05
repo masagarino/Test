@@ -1,0 +1,65 @@
+@import 'styles/variables.css';
+
+.panelHeading{
+  background-color: unset !important;
+}
+
+.panel{
+    border: unset !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.panelBody{
+  color:$black ;
+}
+.angleRight{
+  float: right;
+}
+.detailsText{
+  font-weight: 900;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.aView {
+    position: relative;
+    float: right;
+}
+.btnDetails{
+  width: 120px !important;
+  margin: 8px;    
+  background-color: grey !important;
+  border-color: grey !important;
+}
+
+.cardDetails {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+    height: 130px;
+    background-color: #ffffff;
+    text-align: -webkit-center;
+    padding-top: 3%;
+    border-radius: 5px;
+    padding-bottom: 3%;
+}
+
+.LabelHeaderText{
+  font-weight: 800;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.helpCenterContent{
+  margin-top: 25px;
+    margin-bottom: 25px;
+}
+.aHelpCenterContent{
+  float: right;
+}
+.iconContent{
+  color: white;
+    font-size: 45px;
+    background-color: #C8C8C8;
+    border-radius: 5px;
+}
